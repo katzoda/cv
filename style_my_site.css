@@ -4,12 +4,11 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
 }
-/* pokud napr. h1 ma nastaven width, text-align nefunguje, je treba nastavit u h1 margin */
 
 a {
   color: #11999e;
   font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px; /* 10 is top and bottom, 20 is left and right */
+  margin: 10px 20px;
   text-decoration: none;
 }
 
