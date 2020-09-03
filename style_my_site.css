@@ -1,15 +1,14 @@
 body {
   color: #40514e;
-  margin: 0;   /* overwrites the default 8px */
+  margin: 0; 
   text-align: center;
   font-family: 'Merriweather', serif;
 }
-/* pokud napr. h1 ma nastaven width, text-align nefunguje, je treba nastavit u h1 margin */
 
 a {
   color: #11999e;
   font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px; /* 10 is top and bottom, 20 is left and right */
+  margin: 10px 20px;
   text-decoration: none;
 }
 
@@ -19,12 +18,8 @@ a:hover {
 
 hr {
   background-color: none;
-  /* border-style: dotted none none; */
   border: dotted #eaf6f6 6px;
-  /*border-color: grey;*/
-  /* border-width: 3px;*/
   border-bottom: none;
-  /*height: 0;*/
   margin: 100px auto;
   width: 5%;
 }
@@ -32,12 +27,7 @@ hr {
 h1 {
   color: #66bfbf;
   font-family: 'Sacramento', cursive;
-  font-size: 5.625rem;   /* if a user change font to very large, h1 is not affected but other text is,
-  100% is 16px, if we want 90px size: 90px/16px = 5.625*100 = 562.5% */
-  /* we can use em unit, 1em = 16px*/
-  /* Pokud nastavim u body font size s dynamickou jednotkou em nebo %, a u treba h1 mam dasli nastaveni treba 2em, tak se to zdedi a brytalne zvetsi,
-  proto muze byt lepsi uzit px, to je staticke a nemeni se  */
-  /*  inside CSS3 there is rem (root em) unit. It ignores all of the parent settings */
+  font-size: 5.625rem;   
   margin: 50px auto 0 auto;
   line-height: 2;
   width: 30%;
@@ -86,7 +76,6 @@ p {
 }
 
 .bottom-container-p {
-  /*margin-bottom: 50px;*/
   color: #11999e;
   font-size: 0.75rem;
   padding: 50px 0;
