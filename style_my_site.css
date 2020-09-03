@@ -1,0 +1,190 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+/* pokud napr. h1 ma nastaven width, text-align nefunguje, je treba nastavit u h1 margin */
+
+a {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px; /* 10 is top and bottom, 20 is left and right */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e4f9f5;
+}
+
+hr {
+  background-color: none;
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 5%;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  line-height: 2;
+  width: 30%;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+.a-main:hover {
+    color: #00bcd4;
+}
+
+.icon-attrib {
+  font-size: 10px;
+  width: 30%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #e4f9f5;
+  position: relative;
+}
+
+.bottom-container-p {
+  color: #11999e;
+  font-size: 0.75rem;
+  padding: 50px 0;
+  margin: 0;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  position: relative;
+  text-align: left;
+}
+
+.skill-row-h3 {
+  position: absolute;
+  left: 250px;
+  top: 5px;
+
+}
+
+.skill-row-img {
+  margin-right: 30px;
+  width: 25%;
+}
+
+.skill-row-p {
+  position: absolute;
+  left: 250px;
+  top: 50px;
+}
+
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.footer-link {
+  /*color: #11999e;*/
+}
+
+#linkedIn {
+  position: relative;
+  top: 20px;
+}
+
+#linkedIn:hover {
+    color: #11cdd4;
+}
+
+.btn {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #11cdd4), color-stop(1, #11999e) );
+	background:-moz-linear-gradient( center top, #11cdd4 5%, #11999e 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#11cdd4', endColorstr='#11999e');
+	background-color:#11cdd4;
+	-webkit-border-top-left-radius:9px;
+	-moz-border-radius-topleft:9px;
+	border-top-left-radius:9px;
+	-webkit-border-top-right-radius:9px;
+	-moz-border-radius-topright:9px;
+	border-top-right-radius:9px;
+	-webkit-border-bottom-right-radius:9px;
+	-moz-border-radius-bottomright:9px;
+	border-bottom-right-radius:9px;
+	-webkit-border-bottom-left-radius:9px;
+	-moz-border-radius-bottomleft:9px;
+	border-bottom-left-radius:9px;
+text-indent:0;
+	border:1px solid #11cdd4;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	/*text-shadow:1px 1px 0px #11cdd4;*/
+}.btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #30e3cb), color-stop(1, #2bc4ad) );
+	background:-moz-linear-gradient( center top, #30e3cb 5%, #2bc4ad 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#30e3cb', endColorstr='#2bc4ad');
+	background-color:#30e3cb;
+}.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.personal-img {
+    width: 300px;
+    height: 410px;
+}
